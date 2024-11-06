@@ -21,9 +21,9 @@ Make sure you have the following installed on your machine:
    npm install
 2.Configure your environment variables:
 
-Open the .env file in the backend folder.
-Change the MONGO_URI to your MongoDB connection string.
-Change the TOKEN_KEY to your desired token key.
+Open the .env file in the backend folder.<br>
+Change the MONGO_URI to your MongoDB connection string.<br>
+Change the TOKEN_KEY to your desired token key.<br>
 
 3. Start the backend server:
    ```bash

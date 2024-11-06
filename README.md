@@ -17,4 +17,24 @@ Make sure you have the following installed on your machine:
 1. Navigate to the backend directory:
 
    ```bash
-   cd backend
+   cd discord-backend
+   npm install
+2.Configure your environment variables:
+
+Open the .env file in the backend folder.
+Change the MONGO_URI to your MongoDB connection string.
+Change the TOKEN_KEY to your desired token key.
+
+3. Start the backend server:
+   ```bash
+   node server.js
+
+### Frontend Setup
+
+Navigate to the frontend directory:
+
+   ```bash
+   cd discord-frontend
+   npm install
+   npm start
+   
